@@ -141,6 +141,35 @@ section
     text-align: center;
 }
 
+.Intro-text ol 
+{
+    display: flex;
+    justify-content: center;
+}
+
+.Intro-text li 
+{
+    list-style-type: none;
+    padding: 1rem 1rem;
+    font-size: 1.5rem;
+}
+
+.Intro-text li:hover
+{
+    background-color: #81dc75;
+    color: white;
+}
+
+
+@media (min-width:888px) {
+
+    .Intro-text
+    {
+        padding-top: 10vh;
+    }
+    
+}
+
 #name
 {
     font-size: 3.3rem;
@@ -235,19 +264,7 @@ section
     border: 1px solid #81dc75;
 }
 
-@keyframes animate2 {
 
-    0%{
-      transform: translateX(50%);
-    } 
-  
-  
-    100%
-    {
-      transform: translateX(0%);
-    }
-      
-  }
 
   .Card1
   {
@@ -322,19 +339,11 @@ section
     {
         width: 60vh;
     }
-    .Intro-text
-    {
-        padding-top: 10vh;
-    }
     
 }
 
 @media (min-width:936px) and (max-width:1200px) {
 
-    .Intro-text
-    {
-        padding-top: 10vh;
-    }
 
     .Image img 
     {
