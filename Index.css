@@ -271,7 +271,7 @@ a:visited,a:active,a
     border: 1px solid #81dc75;
 }
 
-@media (max-width:846px) and (min-width:700px) {
+@media (max-width:847px) and (min-width:700px) {
 
     .Card
     {
@@ -426,6 +426,7 @@ a:visited,a:active,a
     {
         display: flex;
         justify-content: center;
+        padding-left: 6vw;
     }
     
     .text p 

@@ -11,7 +11,7 @@ function clickHandler()
     {
       const tl = new TimelineMax({defaults:{ease:"power2.out"}});
 
-      tl.fromTo(card1[index], 0.8,{height:"0",width:"0",opacity:"0",pointerEvents:"none"},{height: "72%",
+      tl.fromTo(card1[index], 0.8,{height:"0",width:"0",opacity:"0"},{height: "72%",
         width: "90%",opacity:"1",pointerEvents:"all"})
     })
     )
